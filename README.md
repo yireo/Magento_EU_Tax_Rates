@@ -9,9 +9,19 @@ country.
 This repository contains a file `tax_rates.csv` which can be imported into the Magento System Configuration 
 to setup tax rates automatically.
 
+## Usage
+Login to your Magento backend and navigate to `Sales` > `Tax` > `Import / Export Tax Rates`. 
+Use `Export Tax Rates` to backup your previous rates. Use `Import Tax Rates` to upload the file 
+`tax_rates.csv` from this repository.
+
+
 ## Disclaimer
 We took the information from various third party sites like Wikipedia. The information might be incorrect.
 If you have a better resource to base this CSV file off, please let us know.
+
+This file has been tested so far on the following Magento versions:
+* Magento CE 1.9
+* Magento CE 1.8
 
 ## We need help
 We need your help. If you download this list and happen to find a mistake, please let us (and the community)

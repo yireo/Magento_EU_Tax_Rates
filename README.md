@@ -1,4 +1,4 @@
-Magento_EU_Tax_Rates
+Magento EU Tax Rates
 ====================
 
 Starting from 1st of January 2015, EU tax regulation changes. Instead of the original tax calculation,
@@ -10,7 +10,7 @@ This repository contains a file `tax_rates.csv` which can be imported into the M
 to setup tax rates automatically.
 
 ## Usage
-Login to your Magento backend and navigate to `Sales` > `Tax` > `Import / Export Tax Rates`. 
+Login to your Magento backend and navigate to `Sales > Tax > Import / Export Tax Rates`. 
 Use `Export Tax Rates` to backup your previous rates. Use `Import Tax Rates` to upload the file 
 `tax_rates.csv` from this repository.
 
@@ -27,8 +27,6 @@ This file has been tested so far on the following Magento versions:
 We need your help. If you download this list and happen to find a mistake, please let us (and the community)
 know through info@yireo.com.
 
-## Used on
-To give you an idea of who's using these rules, so that we can all blame each other, here is a list of sites
-that use these ratings:
-* Yireo webshop
+More information is here:
+http://europa.eu/youreurope/business/vat-customs/buy-sell/index\_en.htm#
 

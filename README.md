@@ -28,5 +28,5 @@ We need your help. If you download this list and happen to find a mistake, pleas
 know through info@yireo.com.
 
 More information is here:
-http://europa.eu/youreurope/business/vat-customs/buy-sell/index\_en.htm#
+http://europa.eu/youreurope/business/vat-customs/buy-sell/
 

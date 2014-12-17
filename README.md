@@ -29,4 +29,5 @@ know through info@yireo.com.
 
 More information is here:
 http://europa.eu/youreurope/business/vat-customs/buy-sell/
+http://www.vatlive.com/vat-rates/european-vat-rates/eu-vat-rates/
 

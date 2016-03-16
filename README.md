@@ -1,10 +1,12 @@
 Magento EU Tax Rates
 ====================
 
-Starting from 1st of January 2015, EU tax regulation changes. Instead of the original tax calculation,
+Starting from 1st of January 2015, EU tax regulation has changed regarding taxation. In some cases, 
+instead of the original tax calculation,
 where the seller took the tax rate from his own country, the tax now needs to be based on the country of
 the seller. Within Magento, this simply means that the tax is calculated using tax rates that differ per EU
-country.
+country. This is not a repository that tries to answer the question whether you need this or not. Instead, if you or your
+bookkeeper has decided that such tax calculation is indeed the case, this repository gives you the tax rates.
 
 This repository contains a file `tax_rates.csv` which can be imported into the Magento System Configuration 
 to setup tax rates automatically.
@@ -33,4 +35,4 @@ know through info@yireo.com.
 More information is here:
 http://europa.eu/youreurope/business/vat-customs/buy-sell/
 http://www.vatlive.com/vat-rates/european-vat-rates/eu-vat-rates/
-
+https://github.com/yireo/Magento_EU_Tax_Rates/issues/url

@@ -9,17 +9,22 @@ Within Magento, this simply means that the tax is calculated using tax rates tha
 country. This is not a repository that tries to answer the question whether you need this or not. Instead, if you or your
 bookkeeper has decided that such tax calculation is indeed the case, this repository gives you the tax rates.
 
-This repository contains a file `tax_rates.csv` which can be imported into the Magento System Configuration 
+This repository contains a file `tax_rates_eu.csv` which can be imported into the Magento System Configuration 
 to setup tax rates automatically.
 
-## Usage
+## Usage Magento 1.x
 Login to your Magento backend and navigate to `Sales > Tax > Import / Export Tax Rates`. 
 Use `Export Tax Rates` to backup your previous rates. Use `Import Tax Rates` to upload the file 
-`tax_rates.csv` from this repository.
+`tax_rates_eu.csv` from this repository.
 
 Note that the first row of the CSV is in English, and you'll need the English locale to be loaded for this CSV
 to be imported correctly. To allow for this: Change the locale in the bottom of your Magento Admin Panel
 to "English (United States)".
+
+## Usage Magento 2.x
+Login to your Magento backend and navigate to `System > Import/Export Tax Rates`. 
+Use `Export Tax Rates` to backup your previous rates. Click on `Browse ...` and select the downloaded  file 
+`tax_rates_eu.csv` from this repository and click on `Imnport Tax Rates`.
 
 ## Disclaimer on correctness
 We are not bookkeepers. We do not claim to be bookkeepers. If you want to make sure whether these tax rates apply to your own
@@ -31,6 +36,7 @@ If you have a better resource to base this CSV file off, please let us know.
 This file has been tested so far on the following Magento versions:
 * Magento CE 1.9
 * Magento CE 1.8
+* Magento CE 2.1
 
 ## We need help
 We need your help. If you download this list and happen to find a mistake, please let us (and the community)

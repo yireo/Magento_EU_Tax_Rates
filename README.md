@@ -36,6 +36,7 @@ If you have a better resource to base this CSV file off, please let us know.
 This file has been tested so far on the following Magento versions:
 * Magento CE 1.9
 * Magento CE 1.8
+* Magento CE 2.0
 * Magento CE 2.1
 
 ## We need help

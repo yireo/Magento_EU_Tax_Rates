@@ -38,6 +38,10 @@ This file has been tested so far on the following Magento versions:
 * Magento CE 1.8
 * Magento CE 2.0
 * Magento CE 2.1
+* Magento CE 2.2
+* Magento CE 2.3
+
+Most likely this also works without issues on EE versions.
 
 ## We need help
 We need your help. If you download this list and happen to find a mistake, please let us (and the community)

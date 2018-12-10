@@ -60,6 +60,6 @@ We need your help. If you download this list and happen to find a mistake, pleas
 know through info@yireo.com.
 
 More information is here:
-http://europa.eu/youreurope/business/vat-customs/buy-sell/
-http://www.vatlive.com/vat-rates/european-vat-rates/eu-vat-rates/
-https://github.com/yireo/Magento_EU_Tax_Rates/issues/url
+- http://europa.eu/youreurope/business/vat-customs/buy-sell/
+- http://www.vatlive.com/vat-rates/european-vat-rates/eu-vat-rates/
+- https://github.com/yireo/Magento_EU_Tax_Rates/issues/url

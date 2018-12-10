@@ -26,6 +26,15 @@ Login to your Magento backend and navigate to `System > Import/Export Tax Rates`
 Use `Export Tax Rates` to backup your previous rates. Click on `Browse ...` and select the downloaded  file 
 `tax_rates_eu.csv` from this repository and click on `Imnport Tax Rates`.
 
+## Managing taxrates automatically with the Yireo TaxRatesManager extension
+Periodically, tax rates change. When dealing with a busy Magento shop, you will want to change the tax rates as soon as the time is there, to prevent sales after
+that date with the wrong tax rates. This is where our paid extension Yireo TaxRatesManager extension comes into the picture. It guarantees that a specific tax
+rates is properly changed at the right date.
+
+This commercial Yireo extension actually makes use of the information in this repository. The `feeds.json` file is used to get a listing of possible feeds, while
+the naming convention of the other CSV files makes sure that on a specific date the right files switch. The extension relies on cron to be running. It also ships
+with an automatic fixing ability via cron and via the backend: The backend option allows you to preview what kind of changes would be made at a specific date.
+
 ## Disclaimer on correctness
 We are not bookkeepers. We do not claim to be bookkeepers. If you want to make sure whether these tax rates apply to your own
 store or not, make sure to consult your local bookkeeper instead.

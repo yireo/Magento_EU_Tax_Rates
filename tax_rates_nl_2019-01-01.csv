@@ -1,0 +1,4 @@
+"Code","Country","State","Zip/Post Code","Rate","Zip/Post is Range","Range From","Range To","default"
+"Netherlands (standard)","NL","*","","21.0000","","","",""
+"Netherlands (reduced: food / books / pharma / medical / hotels)","NL","*","","9.0000","","","",""
+"Netherlands (zero: Intra-comm. and internat. transp. (air & sea transp.))","NL","*","","0.0000","","","",""

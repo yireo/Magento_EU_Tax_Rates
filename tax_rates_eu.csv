@@ -1,6 +1,6 @@
 "Code","Country","State","Zip/Post Code","Rate","Zip/Post is Range","Range From","Range To","default"
 "Austria (standard)","AT","*","","20.0000","","","",""
-"Austria (reduced: flights / events / firewood)","AT","*","13.0000","","","",""
+"Austria (reduced: flights / events / firewood)","AT","*","","13.0000","","","",""
 "Austria (reduced: food / books / pharma / hotels)","AT","*","","10.0000","","","",""
 "Austria (zero: Intra-comm. and internat. transp. (excl road & rail))","AT","*","","0.0000","","","",""
 "Belgium (standard)","BE","*","","21.0000","","","",""

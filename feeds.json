@@ -1,8 +1,7 @@
 {
     "feeds": [
         "tax_rates_eu.csv",
-        "tax_rates_eu_2019-01-01.csv",
         "tax_rates_nl.csv",
-        "tax_rates_nl_2019-01-01.csv"
+        "tax_rates_us.csv"
     ]
 }

@@ -1,0 +1,15 @@
+diff --git a/tax_rates_eu.csv b/tax_rates_eu.csv
+index 0ad8687..80c3a17 100644
+--- a/tax_rates_eu.csv
++++ b/tax_rates_eu.csv
+@@ -35,8 +35,8 @@
+ "France (reduced: medicals / food / books)","FR","*","","5.5000","","","",""
+ "France (reduced: newspapers / pharma)","FR","*","","2.1000","","","",""
+ "France (zero: Intra-comm. and internat. transp. (excl road & inland waterway))","FR","*","","0.0000","","","",""
+-"Germany (standard)","DE","*","","19.0000","","","",""
+-"Germany (reduced: food / medical / books / hotels)","DE","*","","7.0000","","","",""
++"Germany (standard)","DE","*","","16.0000","","","",""
++"Germany (reduced: food / medical / books / hotels)","DE","*","","5.0000","","","",""
+ "Germany (zero: Intra-comm. and internat. transp. (excl road & rail & inland waterway))","DE","*","","0.0000","","","",""
+ "Greece (standard)","GR","*","","24.0000","","","",""
+ "Greece (reduced: food / pharma / medical)","GR","*","","13.0000","","","",""

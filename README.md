@@ -35,8 +35,8 @@ This commercial Yireo extension actually makes use of the information in this re
 the naming convention of the other CSV files makes sure that on a specific date the right files switch. The extension relies on cron to be running. It also ships
 with an automatic fixing ability via cron and via the backend: The backend option allows you to preview what kind of changes would be made at a specific date.
 
-- Magento 1: https://www.yireo.com/software/magento-extensions/taxratesmanager1
-- Magento 2: https://www.yireo.com/software/magento-extensions/taxratesmanager2
+- Yireo TaxRatesManager extension for Magento 1: https://www.yireo.com/software/magento-extensions/taxratesmanager
+- Yireo TaxRatesManager extension for Magento 2: https://www.yireo.com/software/magento-extensions/taxratesmanager2
 
 ## Disclaimer on correctness
 We are not bookkeepers. We do not claim to be bookkeepers. If you want to make sure whether these tax rates apply to your own

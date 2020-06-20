@@ -64,3 +64,14 @@ More information is here:
 - http://www.vatlive.com/vat-rates/european-vat-rates/eu-vat-rates/
 - https://github.com/yireo/Magento_EU_Tax_Rates/issues/url
 
+## Testing
+### Testing for TaxRatesManager functionality
+Fork this GitHub repository and then add a specific file. Next, reconfigure your TaxRatesManager extension to use a
+different CSV file.
+
+### Testing for tax changes in the CSV files
+For this GitHub repository and add a `diff` file in the `diff` folder following the naming standard of other files.
+For instance, a diff file with a filename `diff/tax_rates_eu_2020-07-01.diff`. You can also use the script
+`bin/create_diff.sh` to generate this file based on changes you have made to `tax_rates_eu.csv`.
+
+Next, run the script `bin/apply_diff.sh`.

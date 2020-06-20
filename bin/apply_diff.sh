@@ -9,10 +9,12 @@ scriptDir=`dirname $scriptPath`
 diffPath=$scriptDir/../diff/$diffFile
 targetPath=$scriptDir/../$targetFile
 
+cd `dirname $scriptDir`
+git pull origin master
+
 test -f $diffPath || exit
 test -f $targetPath || (echo "Target $targetPath does not exist" && exit)
 
-cd `dirname $scriptDir`
 cp $diffPath .
 cp $targetFile $backupFile
 git add $backupFile

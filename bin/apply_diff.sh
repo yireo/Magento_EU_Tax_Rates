@@ -4,7 +4,7 @@ diffFile=tax_rates_eu_${diffDate}.diff
 targetFile=tax_rates_eu.csv
 backupFile=${targetFile/.csv/_backup_${diffDate}.csv}
 
-scriptPath=$(realpath $0)
+scriptPath=$(readlink -f $0)
 scriptDir=`dirname $scriptPath`
 diffPath=$scriptDir/../diff/$diffFile
 targetPath=$scriptDir/../$targetFile

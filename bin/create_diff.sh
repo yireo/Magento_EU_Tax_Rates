@@ -3,7 +3,7 @@ diffDate=`date +%Y-%m-%d`
 diffFile=tax_rates_eu_${diffDate}.diff
 targetFile=tax_rates_eu.csv
 
-scriptPath=$(realpath $0)
+scriptPath=$(readlink -f $0)
 scriptDir=`dirname $scriptPath`
 targetPath=$scriptDir/../$targetFile
 

@@ -10,7 +10,7 @@ diffPath=$scriptDir/../diff/$diffFile
 targetPath=$scriptDir/../$targetFile
 
 cd `dirname $scriptDir`
-git pull origin master
+git pull -q origin master
 
 test -f $diffPath || exit
 test -f $targetPath || (echo "Target $targetPath does not exist" && exit)
@@ -23,5 +23,5 @@ git commit -m "Create new backup" $backupFile
 git apply $diffFile
 git commit -m "Applied diff from file ${diffFile}" $targetFile
 
-git push origin master
+git push -q origin master
 rm $diffFile

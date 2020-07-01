@@ -18,10 +18,10 @@ test -f $targetPath || (echo "Target $targetPath does not exist" && exit)
 cp $diffPath .
 cp $targetFile $backupFile
 git add $backupFile
-git commit -m "Create new backup" $backupFile
+git status -q || git commit -m "Create new backup" $backupFile
 
-git apply $diffFile
-git commit -m "Applied diff from file ${diffFile}" $targetFile
+git apply $diffFile 2> /dev/null
+git status -q || git commit -m "Applied diff from file ${diffFile}" $targetFile
 
 git push -q origin master
 rm $diffFile

@@ -1,0 +1,11 @@
+diff --git a/tax_rates_eu.csv b/tax_rates_eu.csv
+index b0b66a8..e14893b 100644
+--- a/tax_rates_eu.csv
++++ b/tax_rates_eu.csv
+@@ -106,6 +106,3 @@
+ "Sweden (reduced: food)","SE","*","","12.0000","","","",""
+ "Sweden (reduced: books)","SE","*","","6.0000","","","",""
+ "Sweden (zero: pharma / Intra-comm. and internat. pass. transp.)","SE","*","","0.0000","","","",""
+-"United Kingdom (standard)","GB","*","","20.0000","","","",""
+-"United Kingdom (reduced: property renovations)","GB","*","","5.0000","","","",""
+-"United Kingdom (zero: food / books / pharma / medical / Intra-comm.)","GB","*","","0.0000","","","",""

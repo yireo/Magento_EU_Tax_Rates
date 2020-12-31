@@ -14,14 +14,16 @@ git pull -q origin master
 
 test -f $diffPath || exit
 test -f $targetPath || (echo "Target $targetPath does not exist" && exit)
+test -f $backupFile && exit
 
 cp $diffPath .
+
 cp $targetFile $backupFile
-git add $backupFile
-git commit -m "Create new backup" $backupFile
+git add $backupFile 2> /dev/null
+git commit -q --no-status -m "Create new backup" $backupFile
 
 git apply $diffFile 2> /dev/null
-git commit -m "Applied diff from file ${diffFile}" $targetFile
+git commit -qm "Applied diff from file ${diffFile}" $targetFile
 
-git push -q origin master
 rm *.diff
+git push -q origin master

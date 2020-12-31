@@ -17,4 +17,4 @@ test -f $targetPath || (echo "Target $targetPath does not exist" && exit)
 
 cp $diffPath .
 git apply -vv --check $diffFile && echo "Good job!"
-
+rm *.diff
